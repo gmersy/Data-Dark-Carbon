@@ -7,8 +7,9 @@ Hello! Welcome to the repository accompanying the submission Dark Carbon: Assess
 2. We use the Intel Power Gadget to obtain the power draw of hardware components. The Intel Power Gadget is compatible with 2nd Generation up to 10th Generation Intel Core processors and has native support for Mac and Windows. There are existing ports for [Linux](https://github.com/vitillo/power_gadget), but we cannot verify their accuracy. 
 
 ## Steps
-1. Install Python requirements via `pip install -r requirements.txt`
-2. Install the [Intel Power Gadget](https://www.intel.com/content/www/us/en/developer/articles/tool/power-gadget.html)
+1. Clone, fork, or download the repo
+2. Install Python requirements via `pip install -r requirements.txt`
+3. Install the [Intel Power Gadget](https://www.intel.com/content/www/us/en/developer/articles/tool/power-gadget.html)
 # Raw Generation Sources
 We collected publicly-available generation source data from both the [Midwest Independent System Operator](https://www.misoenergy.org/) (MISO) and [California Independent System Operator](https://www.caiso.com/Pages/default.aspx)
 (CAISO). These raw data can be found in `carbon_intensity_pricing/`. We display the data sources in the below table for each applicable figure:
