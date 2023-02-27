@@ -70,6 +70,6 @@ Before running `device_power/webcam.py` or `device_power/CAISO_MISO_webcam_exper
 These values will be prompted by `device_power/webcam.py` and `device_power/CAISO_MISO_webcam_experiments.py` so please make note of them.
 
 # Results
-The stored results from the 24 short video experiment run on the 2019 Macbook Pro is in `experiment_results/results.csv`. The power logging for both the 2 minute video power plot and the 24 short video experiment are in `device_power/power_data_provenance_demo.csv' and `device_power/power_experiments.csv` respectively. All of the plots are in the `figs/` directory.
+The stored results from the 24 short video experiment run on the 2019 Macbook Pro is in `experiment_results/results.csv`. The power logging for both the 2 minute video power plot and the 24 short video experiment are in `device_power/power_data_provenance_demo.csv` and `device_power/power_experiments.csv` respectively. All of the plots are in the `figs/` directory.
 
 
