@@ -49,7 +49,7 @@ We compute the carbon emissions via:
 
 $$\mathrm{emissions} = C_t \times E$$
 
-where $CI_t$ is the average carbon intensity at time $t$ and $E$ is the energy consumed during the collection of the webcam video.
+where $C_t$ is the average carbon intensity at time $t$ and $E$ is the energy consumed during the collection of the webcam video.
 
 
 # Reproducing Plots
