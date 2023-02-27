@@ -47,7 +47,7 @@ We can then convert the value to kWh by taking $E = E / 3.6 \times 10^6$ to matc
 # Carbon emissions
 We compute the carbon emissions via:
 
-$$\mathrm{emissions} = \mathrm{CI}_t \times E$$
+$$\mathrm{emissions} = C_t \times E$$
 
 where $CI_t$ is the average carbon intensity at time $t$ and $E$ is the energy consumed during the collection of the webcam video.
 
