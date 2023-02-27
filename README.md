@@ -35,7 +35,7 @@ The fossil fuels are given a grid-specific *combustion CI* due to combusting the
 
 ## Average CI for the Grid
 Let $G_t$ denote the total power generation in MW at time $t$, $G_{ts}$ denote the generation in MW at time $t$ by generation source $s$, and $CI_s$ denote the carbon intensity in kg CO2 e/MWh of generation source $s \in S$. Then, we define the average carbon intensity $\mathrm{CI}$ as: 
-$$\mathrm{CI}_t = \sum_{s \in S} \frac{G_{ts}}{G_t} \times CI_s$$
+$$\mathrm{CI}_t = \sum_{s \in S} (G_{ts} / {G_t}) \times CI_s$$
 where the total generation $G_{t} = \sum_{s \in S} G_{ts}$ is over all of the sources.
 
 # Power Methodology
