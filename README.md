@@ -36,7 +36,7 @@ The fossil fuels are given a grid-specific *combustion CI* due to combusting the
 Let $G_t$ denote the total power generation in MW at time $t$, $G_{ts}$ denote the generation in MW at time $t$ by generation source $s$, and $CI_s$ denote the carbon intensity in kg CO2 e/MWh of generation source $s \in S$. Then, we define the average carbon intensity $C_t$ at time $t$ as: 
 $$C_t = \sum_{s \in S} (G_{ts} / {G_t}) \times CI_s$$
 where the total generation is
-$$G_{t} = \sum_{s \in S} G_{ts}$$.
+$$G_{t} = \sum_{s \in S} G_{ts}$$
 
 # Power Methodology
 There are two plausible ways to compute the energy in the context of the Intel Power Gadget. The first is using the "empirical" log data, which may contain a small I/O delay. Instead, we chose the "theoretical" energy, assuming that the power was logged at each discrete sampling time defined by the first log time and multiples of the sampling rate. Specifically, let $\mathbf{p} = [p_1, p_2, \ldots, p_r]$ be the power readings in Watts during the collection of a webcam video and $\Delta$ be the sensor sampling rate in seconds. The total energy in Joules is given by:
