@@ -24,7 +24,7 @@ Figure        | Data Source(s)
 
 
 # Carbon Intensity Methodology
-The carbon intensity of each generation source in kg CO2e/MWh = g CO2e/kWh for the Midwest Independent System Operator and the California Independent System Operator are in `MISO_carbon_intensity.json` and `CAISO_carbon_intensity.json` respectively. Each JSON object contains the links to the references. 
+The carbon intensity of each generation source in kg CO2e/MWh = g CO2e/kWh for the Midwest Independent System Operator and the California Independent System Operator are in `MISO_carbon_intensity.json` and `CAISO_carbon_intensity.json` respectively. Each JSON object contains the links to the references.
 
 ## CI for Low-Carbon Sources
 Low-carbon sources are given life cycle carbon intensities. This metric includes emissions from manufacturing renewable components, ongoing operations, and disposing of the materials at the end of the component lifetime. We rely on metrics from the [National Renewable Energy Lab](https://www.nrel.gov/docs/fy21osti/80580.pdf) that calibrate a median life cycle value across multiple published life cycle asessments. For CAISO, the biogas CI is derived from a [study](https://onlinelibrary.wiley.com/doi/full/10.1002/elsc.201000073?casa_token=XonEKx8AkwgAAAAA%3APwu3O6k_tPFVCgStvsOudMk-JuxklWwq4WewR1xNd5KG2bQb2M6jldvV6NSDsf6saQm_DsINDgXXeuU) where the CI is the average of the 10 plant CIs given in Figure 3 of their paper. 
@@ -70,6 +70,6 @@ Before running `device_power/webcam.py` or `device_power/CAISO_MISO_webcam_exper
 These values will be prompted by `device_power/webcam.py` and `device_power/CAISO_MISO_webcam_experiments.py` so please make note of them.
 
 # Results
-The stored results from the 24 short video experiment run on the 2019 Macbook Pro is in `experiment_results/results.csv`. The power logging for both the 2 minute video power plot and the 24 short video experiment are in `device_power/power_data_provenance_demo.csv' and `device_power/power_experiments.csv` respectively. 
+The stored results from the 24 short video experiment run on the 2019 Macbook Pro is in `experiment_results/results.csv`. The power logging for both the 2 minute video power plot and the 24 short video experiment are in `device_power/power_data_provenance_demo.csv' and `device_power/power_experiments.csv` respectively. All of the plots are in the `figs/` directory.
 
 
