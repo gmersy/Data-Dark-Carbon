@@ -39,7 +39,7 @@ where the total generation is
 $$G_{t} = \sum_{s \in S} G_{ts}$$
 
 # Power Methodology
-There are two plausible ways to compute the energy in the context of the Intel Power Gadget. The first is using the "empirical" log data, which may contain a small I/O delay. Instead, we chose the "theoretical" energy, assuming that the power was logged at each discrete sampling time defined by the first log time and multiples of the sampling rate. Specifically, let $\mathbf{p} = [p_1, p_2, \ldots, p_r]$ be the power readings in Watts during the collection of a webcam video and $\Delta$ be the sensor sampling rate in seconds. The total energy in Joules is given by:
+There are two plausible ways to compute the energy in the context of the Intel Power Gadget. The first is using the "empirical" log data, which may contain a small I/O delay. To avoid this delay, we chose the "theoretical" energy, assuming that the power was logged at each discrete sampling time defined by the first log time and multiples of the sampling rate. Specifically, let $\mathbf{p} = [p_1, p_2, \ldots, p_r]$ be the power readings in Watts during the collection of a webcam video and $\Delta$ be the sensor sampling rate in seconds. The total energy in Joules is given by:
 $$E = \sum_{t = 1}^{r} p_t \times \Delta$$
 
 We can then convert the value to kWh by taking $E = E / 3.6 \times 10^6$ to match the grid average carbon intensity.  
