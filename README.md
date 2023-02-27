@@ -13,7 +13,7 @@ Hello! Welcome to the repository accompanying the submission Dark Carbon: Assess
 2. Install the [Intel Power Gadget](https://www.intel.com/content/www/us/en/developer/articles/tool/power-gadget.html)
 # Raw Generation Sources
 We collected publicly-available generation source data from both the [Midwest Independent System Operator](https://www.misoenergy.org/) (MISO) and [California Independent System Operator](https://www.caiso.com/Pages/default.aspx)
-(CAISO). These raw data can be found in `/carbon_intensity_pricing`. We display the data sources in the below table for each applicable figure:
+(CAISO). These raw data can be found in `carbon_intensity_pricing/`. We display the data sources in the below table for each applicable figure:
 
 Figure        | Data Source(s)
 ------------- | -------------
@@ -21,7 +21,7 @@ Figure        | Data Source(s)
 2             | https://www.misoenergy.org/markets-and-operations/real-time--market-data/market-reports/ https://www.caiso.com/TodaysOutlook/Pages/supply.aspx#section-supply-trend
 3             | N/A, system diagram
 4             | N/A, on-device power 
-5             | (RT data API on January 13th, 2023)[https://www.misoenergy.org/markets-and-operations/RTDataAPIs/]
+5             | https://www.misoenergy.org/markets-and-operations/RTDataAPIs/
 
 
 # Carbon Intensity Methodology
@@ -49,7 +49,7 @@ We compute the carbon emissions via:
 
 $$\mathrm{emissions} = \mathrm{CI}_t \times E$$
 
-where $\mathcal{G}_{t}$ is the grid carbon intensity at time $t$ and $E$ is the energy consumed during the collection of the webcam video.
+where $CI_t$ is the average carbon intensity at time $t$ and $E$ is the energy consumed during the collection of the webcam video.
 
 
 # Reproducing Plots
