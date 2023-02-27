@@ -33,7 +33,7 @@ Low-carbon sources are given life cycle carbon intensities. This metric includes
 The fossil fuels are given a grid-specific *combustion CI* due to combusting the fuel derived from historical 2020 data to improve the geographical accuracy of the grid carbon intensities. Combustion CI does not the rest of the power plant life cycle. You can visualize the data [here](https://www.epa.gov/egrid/data-explorer) by selecting *output emission rates (lb/MWh)* for *CO2 equivalent* for *all fuels* at the *balancing authority level* for *2020*. From there, you can click on the MISO and CAISO grids by navigating to the Midwest or California on the map. 
 
 ## Average CI for the Grid
-Let $G_t$ denote the total power generation in MW at time $t$, $G_{ts}$ denote the generation in MW at time $t$ by generation source $s$, and $CI_s$ denote the carbon intensity in kg CO2 e/MWh of generation source $s \in S$. Then, we define the average carbon intensity $C_t$ at time $t$ as: 
+Let $G_t$ denote the total power generation in MW at time $t$, $G_{ts}$ denote the generation in MW at time $t$ by generation source $s \in S$, and $CI_s$ denote the carbon intensity in kg CO2 e/MWh of generation source $s \in S$. Then, we define the average carbon intensity $C_t$ at time $t$ as: 
 $$C_t = \sum_{s \in S} (G_{ts} / {G_t}) \times CI_s$$
 where the total generation is
 $$G_{t} = \sum_{s \in S} G_{ts}$$
